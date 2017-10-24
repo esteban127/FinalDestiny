@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: 352fd1e32bba1b549be2088cbc7d2963
+timeCreated: 1506475014
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: malebody_0
+    21300002: malebody_1
+    21300004: malebody_2
+    21300006: malebody_3
+    21300008: malebody_4
+    21300010: malebody_5
+    21300012: malebody_6
+    21300014: malebody_7
+    21300016: malebody_8
+    21300018: malebody_9
+    21300020: malebody_10
+    21300022: malebody_11
+    21300024: malebody_12
+    21300026: malebody_13
+    21300028: malebody_14
+    21300030: malebody_15
+    21300032: malebody_16
+    21300034: malebody_17
+    21300036: malebody_18
+    21300038: malebody_19
+    21300040: malebody_20
+    21300042: malebody_21
+    21300044: malebody_22
+    21300046: malebody_23
+    21300048: malebody_24
+    21300050: malebody_25
+    21300052: malebody_26
+    21300054: malebody_27
+    21300056: malebody_28
+    21300058: malebody_29
+    21300060: malebody_30
+    21300062: malebody_31
+    21300064: malebody_32
+    21300066: malebody_33
+    21300068: malebody_34
+    21300070: malebody_35
+    21300072: malebody_36
+    21300074: malebody_37
+    21300076: malebody_38
+    21300078: malebody_39
+    21300080: malebody_40
+    21300082: malebody_41
+    21300084: malebody_42
+    21300086: malebody_43
+    21300088: MaleBody_Human_0
+    21300090: MaleBody_Human_1
+    21300092: MaleBody_Human_2
+    21300094: MaleBody_Human_3
+    21300096: MaleBody_Human_4
+    21300098: MaleBody_Human_5
+    21300100: MaleBody_Human_6
+    21300102: MaleBody_Human_7
+    21300104: MaleBody_Human_8
+    21300106: MaleBody_Human_9
+    21300108: MaleBody_Human_10
+    21300110: MaleBody_Human_11
+    21300112: MaleBody_Human_12
+    21300114: MaleBody_Human_13
+    21300116: MaleBody_Human_14
+    21300118: MaleBody_Human_15
+    21300120: MaleBody_Human_16
+    21300122: MaleBody_Human_17
+    21300124: MaleBody_Human_18
+    21300126: MaleBody_Human_19
+    21300128: MaleBody_Human_20
+    21300130: MaleBody_Human_21
+    21300132: MaleBody_Human_22
+    21300134: MaleBody_Human_23
+    21300136: MaleBody_Human_24
+    21300138: MaleBody_Human_25
+    21300140: MaleBody_Human_26
+    21300142: MaleBody_Human_27
+    21300144: MaleBody_Human_28
+    21300146: MaleBody_Human_29
+    21300148: MaleBody_Human_30
+    21300150: MaleBody_Human_31
+    21300152: MaleBody_Human_32
+    21300154: MaleBody_Human_33
+    21300156: MaleBody_Human_34
+    21300158: MaleBody_Human_35
+    21300160: MaleBody_Human_36
+    21300162: MaleBody_Human_37
+    21300164: MaleBody_Human_38
+    21300166: MaleBody_Human_39
+    21300168: MaleBody_Human_40
+    21300170: MaleBody_Human_41
+    21300172: MaleBody_Human_42
+    21300174: MaleBody_Human_43
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MaleBody_Human_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 215
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 215
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 215
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 215
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 215
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 217
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 215
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 172
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 172
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 172
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 172
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 172
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 172
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 172
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 172
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 132
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 129
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 129
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 132
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_22
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 129
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 85
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 86
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 86
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 43
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 44
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 44
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_35
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 43
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_36
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 43
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 44
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 44
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_41
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_42
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaleBody_Human_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 757a6ae742a739345992ab877df92688
+timeCreated: 1506554883
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 24
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Steamwreck
+  fontNames:
+  - Steamwreck
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 3
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

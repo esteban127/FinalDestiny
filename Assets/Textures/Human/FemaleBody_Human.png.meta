@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: 8b6b247581f66cb4396bbc433769068b
+timeCreated: 1506474985
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: femalebody_0
+    21300002: femalebody_1
+    21300004: femalebody_2
+    21300006: femalebody_3
+    21300008: femalebody_4
+    21300010: femalebody_5
+    21300012: femalebody_6
+    21300014: femalebody_7
+    21300016: femalebody_8
+    21300018: femalebody_9
+    21300020: femalebody_10
+    21300022: femalebody_11
+    21300024: femalebody_12
+    21300026: femalebody_13
+    21300028: femalebody_14
+    21300030: femalebody_15
+    21300032: femalebody_16
+    21300034: femalebody_17
+    21300036: femalebody_18
+    21300038: femalebody_19
+    21300040: femalebody_20
+    21300042: femalebody_21
+    21300044: femalebody_22
+    21300046: femalebody_23
+    21300048: femalebody_24
+    21300050: femalebody_25
+    21300052: femalebody_26
+    21300054: femalebody_27
+    21300056: femalebody_28
+    21300058: femalebody_29
+    21300060: femalebody_30
+    21300062: femalebody_31
+    21300064: femalebody_32
+    21300066: femalebody_33
+    21300068: femalebody_34
+    21300070: femalebody_35
+    21300072: femalebody_36
+    21300074: femalebody_37
+    21300076: femalebody_38
+    21300078: femalebody_39
+    21300080: femalebody_40
+    21300082: femalebody_41
+    21300084: femalebody_42
+    21300086: femalebody_43
+    21300088: FemaleBody_Human_0
+    21300090: FemaleBody_Human_1
+    21300092: FemaleBody_Human_2
+    21300094: FemaleBody_Human_3
+    21300096: FemaleBody_Human_4
+    21300098: FemaleBody_Human_5
+    21300100: FemaleBody_Human_6
+    21300102: FemaleBody_Human_7
+    21300104: FemaleBody_Human_8
+    21300106: FemaleBody_Human_9
+    21300108: FemaleBody_Human_10
+    21300110: FemaleBody_Human_11
+    21300112: FemaleBody_Human_12
+    21300114: FemaleBody_Human_13
+    21300116: FemaleBody_Human_14
+    21300118: FemaleBody_Human_15
+    21300120: FemaleBody_Human_16
+    21300122: FemaleBody_Human_17
+    21300124: FemaleBody_Human_18
+    21300126: FemaleBody_Human_19
+    21300128: FemaleBody_Human_20
+    21300130: FemaleBody_Human_21
+    21300132: FemaleBody_Human_22
+    21300134: FemaleBody_Human_23
+    21300136: FemaleBody_Human_24
+    21300138: FemaleBody_Human_25
+    21300140: FemaleBody_Human_26
+    21300142: FemaleBody_Human_27
+    21300144: FemaleBody_Human_28
+    21300146: FemaleBody_Human_29
+    21300148: FemaleBody_Human_30
+    21300150: FemaleBody_Human_31
+    21300152: FemaleBody_Human_32
+    21300154: FemaleBody_Human_33
+    21300156: FemaleBody_Human_34
+    21300158: FemaleBody_Human_35
+    21300160: FemaleBody_Human_36
+    21300162: FemaleBody_Human_37
+    21300164: FemaleBody_Human_38
+    21300166: FemaleBody_Human_39
+    21300168: FemaleBody_Human_40
+    21300170: FemaleBody_Human_41
+    21300172: FemaleBody_Human_42
+    21300174: FemaleBody_Human_43
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FemaleBody_Human_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 215
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 215
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 215
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 215
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 215
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 217
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 215
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 172
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 172
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 172
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 172
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 172
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 172
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 172
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 172
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 132
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 129
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 129
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 132
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_22
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 129
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 85
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 86
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 86
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 86
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 43
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 44
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 44
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_35
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 43
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_36
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 43
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 44
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 44
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_41
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_42
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FemaleBody_Human_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
