@@ -56,6 +56,7 @@ public class TileMapGen : MonoBehaviour
     public int Multiplier = 5;
     public int Frequency = 12;
     public float Scale = 0.5f;
+    public int ChunkSize = 1;
 
     //Dynamic Move Type:
     private System.Random Rand;
@@ -87,11 +88,19 @@ public class TileMapGen : MonoBehaviour
     private NoiseBase Noise;
     private Texture2D GeneratedTexture;
     private Vector2 OldLocation;
+    private bool Copy;
+    private Rect CopyLocation;
+
 
     void Awake() 
     {
-        GridSystem = GetComponent<Grid>();
-        
+        if (Tiles.Length > 0 && Tiles[0] != null) 
+        {
+            TileData temp = new TileData();
+            Tiles[0].GetTileData(new Vector3Int(0, 0, 0), null, ref temp);
+            GridSystem = GetComponent<Grid>();
+            GridSystem.cellSize = new Vector3(temp.sprite.texture.width / temp.sprite.pixelsPerUnit, temp.sprite.texture.height / temp.sprite.pixelsPerUnit, 0.0f);
+        }
     }
 
     void Start() 
@@ -99,13 +108,36 @@ public class TileMapGen : MonoBehaviour
         GenerateLayer();   
     }
 
+    void Update() 
+    {
+        /*var deltaPos = LayerMap[SelectedLayer].WorldToCell(GameObject.FindGameObjectWithTag("Player").transform.position);
+        var deltaChunkWorld = LayerMap[SelectedLayer].WorldToCell(LayerMap[SelectedLayer].transform.position);
+        var deltaSize = LayerMap[SelectedLayer].CellToWorld(new Vector3Int(deltaChunkWorld.x + ChunkSize,0,0));
+        int deltaLayerSelect = SelectedLayer + 1;
+        if (deltaLayerSelect >= LayerMap.Length)
+            deltaLayerSelect = 0;
+        if (deltaPos.x > (deltaChunkWorld.x + ChunkSize / 2))
+        {
+
+        }
+        else
+        { 
+        
+        }*/
+    }
+
     public void Init() {
         LayerMap = GetComponentsInChildren<Tilemap>();
+        if (Octaves <= 0)
+            Octaves = 1;
+        if (ChunkSize <= 0)
+            ChunkSize = 1;
     }
 
     public void GenerateLayer(bool preview = false) 
     {
         Init();
+        int TileDeltaX = 0;
 
         switch (Type) 
         {
@@ -114,6 +146,8 @@ public class TileMapGen : MonoBehaviour
             case GenType.CustomType: Noise = new NoiseBase((long)Random.Range(Seed.x, Seed.y)); break;
             case GenType.DynamicMoveType: Rand = new System.Random((int)Random.Range(Seed.x,Seed.y)); break;
         }
+
+        LayerMap[SelectedLayer].gameObject.SetActive(false);
 
         switch (Type) 
         {
@@ -130,7 +164,7 @@ public class TileMapGen : MonoBehaviour
 
                 for (int x = (int)Transform.x; x < Transform.width; x++) 
                 {
-                    
+                    TileDeltaX++;
                     switch (Type)
                     {
                         default: break;
@@ -145,6 +179,17 @@ public class TileMapGen : MonoBehaviour
                     for (int y = (int)Transform.y; y < Transform.y + height; y++)
                     {
                         SetTileAt(x, y, preview);
+                        if (Copy)
+                            SetTileAt((int)CopyLocation.x + x, (int)CopyLocation.y + y, preview);
+                        /*if (TileDeltaX <= ChunkSize)
+                            SetTileAt(x - (SelectedLayer * ChunkSize), y, preview);
+                        else
+                        {
+                            if (SelectedLayer < LayerMap.Length)
+                                SelectedLayer++;
+                            TileDeltaX = 0;
+                            SetTileAt(x - (SelectedLayer * ChunkSize), y, preview);
+                        }*/
                     }
                 }
                 
@@ -153,7 +198,6 @@ public class TileMapGen : MonoBehaviour
             
             //Unity Prime se genera aca:
             case GenType.UnityTypePrime:
-                
                 float[,] noiseMap;
                 Noise = new NoiseBase();
                 Noise.OctavesOffset = OctavesOffset;
@@ -162,7 +206,7 @@ public class TileMapGen : MonoBehaviour
                 noiseMap = Noise.GetNoise((int)Transform.width, (int)Transform.height, Scale, Octaves, Persistance, Lacunarity);
                 var w = noiseMap.GetLength(0);
                 var h = noiseMap.GetLength(1);
-
+                
                 //Cosntuctor de Textura y material:
                 GeneratedTexture = new Texture2D(w, h);
                 Color[] colorMap = new Color[w * h];
@@ -189,6 +233,7 @@ public class TileMapGen : MonoBehaviour
                 //Generacion de Mapa (inicio):
                 for (int x = (int)Transform.x; x < w; x++)
                 {
+                    TileDeltaX++;
                     for (int y = (int)Transform.y; y < h; y++)
                     {
                         for (int i = 0; i < Regions.Length; i++) 
@@ -197,7 +242,21 @@ public class TileMapGen : MonoBehaviour
                                 SelectedTile = Regions[i].id;
                         }
 
-                        SetTileAt(x, y, preview);
+                        SetTileAt(x , y, preview);
+                        if (Copy)
+                            SetTileAt((int)CopyLocation.x + x, (int)CopyLocation.y + y, preview);
+                            
+                        
+                            
+                        /*if (TileDeltaX <= ChunkSize)
+                            SetTileAt(x-(SelectedLayer*ChunkSize), y, preview);
+                        else 
+                        {
+                            if(SelectedLayer < LayerMap.Length)
+                                SelectedLayer++;
+                            TileDeltaX = 0;
+                            SetTileAt(x - (SelectedLayer * ChunkSize), y, preview);
+                        }*/
                     }
                 }
                 //Generacion de Mapa (fin)
@@ -237,8 +296,10 @@ public class TileMapGen : MonoBehaviour
             break;
 
         }
+        LayerMap[SelectedLayer].gameObject.SetActive(true);
 
-        
+        SelectedLayer = 0;
+       
     }
 
     public void ClearLayer(bool preview = false) 
@@ -249,27 +310,102 @@ public class TileMapGen : MonoBehaviour
             LayerMap[SelectedLayer].ClearAllEditorPreviewTiles();
     }
 
+    public void RemoveLayer(bool preview = false) 
+    {
+        for (int y = 0; y < Transform.height+Elevation; y++)
+        {
+            for (int x = 0; x < Transform.width; x++)
+            {
+                RemoveTileAt(x, y, preview);
+                
+            }     
+        }
+    }
+
     public void SetTileAt(int x, int y, bool preview)
     {
+        if (SelectedTile >= Tiles.Length)
+        {
+            Debug.LogError("Tile ID[" + SelectedTile + "] is equal or greather than maximum tile capacity");
+            return;
+        }
+
         if (!preview)
+        {
             LayerMap[SelectedLayer].SetTile(new Vector3Int(x, y, 0), Tiles[SelectedTile]);
+        }
         else
+        {
             LayerMap[SelectedLayer].SetEditorPreviewTile(new Vector3Int(x, y, 0), Tiles[SelectedTile]);
+        }
+            
+        
     }
 
     public TileBase RemoveTileAt(int x, int y, bool preview = false) 
     {
+        if (LayerMap[SelectedLayer].GetTile(new Vector3Int(x, y, 0)) == null && !preview)
+            return null;
+        
         TileBase cached = LayerMap[SelectedLayer].GetTile(new Vector3Int(x, y, 0));
         if (!preview)
         {
             LayerMap[SelectedLayer].SetTile(new Vector3Int(x, y, 0), null);
             return cached;
         }
-        else {
+        else 
+        {
             LayerMap[SelectedLayer].SetEditorPreviewTile(new Vector3Int(x, y, 0), null);
             return cached;
         }
         
+    }
+
+    public void ChangeChunkLocation(Vector3Int oldPos,Vector3Int newPos)
+    {
+        Rect temp = Transform;
+        Transform = new Rect(-ChunkSize, 0, Transform.x, ChunkSize);
+        Copy = true;
+        CopyLocation = new Rect(ChunkSize+temp.width, 0, 0, 0);
+        SelectedLayer = 1;
+        SelectedTile = 0;
+        GenerateLayer();
+
+        Transform = temp;
+        
+        /*LayerMap[SelectedLayer].gameObject.SetActive(false);
+        for (int tileX = oldPos.x; tileX < oldPos.x+ChunkSize; tileX++)
+        {
+            for (int tileY = oldPos.y; tileY < oldPos.y+ChunkSize; tileY++)
+            {
+                Cached = LayerMap[SelectedLayer].GetTile(new Vector3Int(tileX, tileY, 0));
+                if (Cached != null)
+                {
+                    LayerMap[SelectedLayer].SetTile(new Vector3Int(tileX, tileY, 0), null);
+                    LayerMap[SelectedLayer].SetTile(newPos, Cached);
+                }
+                
+            }
+        }
+        LayerMap[SelectedLayer].gameObject.SetActive(true);*/
+        
+        /*for (int x = startx; x <= endx; x += 1)
+        {
+            for (int y = starty; y >= endy; y -= 1)
+            {
+                int nx = Helper.Mod (x, World.Width);
+                int ny = Helper.Mod (y, World.Height);
+
+                TileData tile = World.GetTile (nx, ny);
+                tile.Refresh();
+            }
+        }*/
+        /*
+        public static int Mod(int x, int m)
+        {
+            int r = x % m;
+            return r < 0 ? r + m : r;
+        }    */
     }
 
     public void SetGenValues()
@@ -310,12 +446,13 @@ public class TileMapGen : MonoBehaviour
         return GeneratedTexture;
     }
 
-    public Tilemap GetLayer(){
-        return LayerMap[SelectedLayer];
-    }
-
     public Tilemap GetLayer(int index){
         return LayerMap[index];
+    }
+
+    public Tilemap[] GetLayers()
+    {
+        return LayerMap;
     }
 
 }
@@ -327,7 +464,7 @@ public class TileMapGenEditor : Editor
     private TileMapGen Gen;
     private int Tab,TabMode,LayerSelect = 0,TileSelect = 0;
     private int LastTileLength;
-    private bool RandomBaseTile = true,AutoUpdate = false;
+    private bool RandomBaseTile = true,AutoUpdate = false,Preview = true;
     private string FilePath = "GeneratedImage";
     
     //Estilos:
@@ -375,6 +512,7 @@ public class TileMapGenEditor : Editor
             GUILayout.Space(5);
         }
 
+        Gen.ChunkSize = EditorGUILayout.IntField("Chunk Size", Gen.ChunkSize);
         switch (Gen.Type)
         {
             default: GUILayout.Label("No Type Selected"); break;
@@ -400,6 +538,7 @@ public class TileMapGenEditor : Editor
                 Gen.OctavesOffset = EditorGUILayout.Vector2Field("Octaves Offset", Gen.OctavesOffset);
                 Gen.Persistance = EditorGUILayout.Slider("Persistance", Gen.Persistance, 0.0f, 1.0f);
                 Gen.Lacunarity = EditorGUILayout.FloatField("Lacunarity", Gen.Lacunarity);
+                
             break;
 
             case GenType.CustomType:
@@ -434,6 +573,7 @@ public class TileMapGenEditor : Editor
         GUI.skin.label.alignment = TextAnchor.MiddleCenter;
         GUILayout.Label("Selected Layer [" + LayerSelect + "]");
         Gen.SelectedLayer = LayerSelect;
+
         switch (Gen.Type) 
         {
             default: 
@@ -510,12 +650,13 @@ public class TileMapGenEditor : Editor
             break;
         }
 
-        GUILayout.Label("Editor Preview");
+        GUILayout.Label("Editor Layer Generator");
+        Preview=EditorGUILayout.Toggle("Is Editor Preview", Preview);
         GUILayout.BeginHorizontal();
         if (GUILayout.Button("Generate"))
-            Gen.GenerateLayer(true);
+            Gen.GenerateLayer(Preview);
         if (GUILayout.Button("Clear"))
-            Gen.ClearLayer(true);
+            Gen.RemoveLayer(Preview);//Gen.ClearLayer(true);
         GUILayout.EndHorizontal();
         GUILayout.Space(10);
     }
@@ -558,5 +699,10 @@ public class TileMapGenEditor : Editor
             }
             
         GUILayout.EndVertical();
+
+        if (GUILayout.Button("Chunk Location"))
+        {
+            Gen.ChangeChunkLocation(new Vector3Int(0, 0, 0), new Vector3Int(256, 0, 0));
+        }
     }
 }
